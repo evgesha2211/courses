@@ -1,0 +1,81 @@
+
+.container {
+    background-color: #18c9ff;
+    padding: 20px;
+    border-radius: 24px;
+    margin: 80px auto 40px;
+    max-width: 500px;
+}
+
+.container h1 {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    margin: 20px;
+}
+
+.log-in-input {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.log-in-input input {
+    padding: 15px;
+    width: 450px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+.input-with-button {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.input-with-button input {
+    width: 350px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    /* flex: 1;  */
+}
+
+.input-with-button button {
+    padding: 8px 12px;
+    background-color: #007bff67; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none; /* Убираем границу кнопки */
+    cursor: pointer; /* Изменяем курсор при наведении */
+    border-radius: 10px; /* Закругление углов кнопки */
+    margin-left: 8px; /* Отступ между input и кнопкой */
+}
+
+.log-in-account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.button-style {
+    display: inline-block;
+    width: 450px;
+    padding: 10px 15px;
+    background: white;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+}

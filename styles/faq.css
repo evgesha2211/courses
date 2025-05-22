@@ -1,0 +1,149 @@
+
+.faq-container {
+    padding: 60px 20px;
+}
+
+.faq-container h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #111;
+}
+
+.accordion {
+    max-width: 800px;
+    margin: 0 20px;
+
+}
+.accordion-item {
+    border-top: 1px solid #e2e2e2;
+    margin-left: 30px;
+}
+.accordion-item:last-child {
+    border-bottom: 1px solid #e2e2e2;
+}
+.accordion-header {
+    width: 100%;
+    padding: 20px 0;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    color: #111;
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.accordion-header .icon {
+    font-size: 24px;
+    color: #888;
+    transition: transform 0.3s ease;
+}
+.accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+    padding: 0;
+}
+.accordion-body p {
+    padding: 0 0 5px;
+    margin: 0;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.accordion-body li, .accordion-body {
+    color: #333;
+}
+
+.accordion-item.open .accordion-body {
+    max-height: 500px;
+    padding: 20px 0;
+}
+.accordion-item.open .icon {
+    transform: rotate(45deg);
+    color: #00adee;
+}
+.accordion-item input:checked + .accordion-header + .accordion-body {
+    max-height: 500px;
+    padding: 20px 0;
+}
+.accordion-item input:checked + .accordion-header .icon {
+    transform: rotate(45deg);
+    color: #00adee;
+}
+
+header .active {
+    color: #00adee;
+    font-weight: 600;
+}
+/*  */
+.faq-category {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 24px 0;
+}
+
+.faq-category:first-of-type {
+    margin-top: 90px;
+}
+
+.faq-category .container {
+  padding: 0 20px;
+}
+
+.category-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-left: 4px;
+}
+
+.cat-icon {
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  background: #e8f0fe;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  position: relative;
+}
+
+.cat-icon img {
+    width: 35x;
+    height: 35px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.category-header h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+}
+
+footer {
+    background-color: #fff;
+    border-top: 1px solid #e2e2e2;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #00adee;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

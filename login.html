@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="website icon" type="png" href="images/airplane.png">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo"><a href="index.html">AviaSearch</a></div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Вход</h1>
+        <div class="log-in-input">
+            <input type="email" id="email" placeholder="Электронная почта">
+            <div class="input-with-button">
+                <input type="password" id="password-field" placeholder="Пароль">
+                <button onclick="togglePasswordVisibility()">Показать</button>
+            </div>
+        </div>
+        <div class="log-in-account">
+            <a href="profile.html" class="button-style">Войти</a>
+            <a href="profile.html" class="button-style">Зарегестрироваться</a>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html>

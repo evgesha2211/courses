@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск авиабилетов</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="website icon" type="png" href="images/airplane.png">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo"><a href="index.html">AviaSearch</a></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="login.html">Профиль</a></li>
+                    <li><a href="faq.html">Поддержка</a></li>
+                    <li><a href="aboutus.html">О нас</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="search-box">
+            <input type="text" placeholder="Откуда">
+            <input type="text" placeholder="Куда">
+            <p>Туда</p> <input type="date">
+            <p>Обратно</p> <input type="date">
+            <button>Найти билеты</button>
+        </div>
+    </section>
+
+    <section class="destination-section">
+        <h2>Море или горы?</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="images/махачкала.jpeg" alt="">
+                <h3>Махачкала</h3>
+                <p>от 8 487 &#8381;</p>
+            </div>
+            <div class="card">
+                <img src="images/петропавловсккамчатский.jpg" alt="">
+                <h3>Петроавловск-Камчатский</h3>
+                <p>от 23 121 &#8381;</p>
+            </div>
+            <div class="card">
+                <img src="images/черногория.jpeg" alt="">
+                <h3>Черногория</h3>
+                <p>от 23 300 &#8381;</p>
+            </div>
+            <div class="card">
+                <img src="images/мальдивы.jpg" alt="">
+                <h3>Мальдивы</h3>
+                <p>от 27 264 &#8381;</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-section">
+        <div class="featured-card">
+            <img src="images/маяк_в_баллтийске.jpg" class="card-image" alt="">
+            <div class="overlay"></div>
+            <div class="meta-wrapper">
+                <div class="meta">Калининград - от 5 861&#8381;</div>
+            </div>
+            <div class="featured-content">
+                <h3>Маяк в Балтийске</h3>
+                <p>Самый западный маяк страны указывает путь кораблям больше 200 летю В 1913 году сюда впервые провели электричество...</p>
+            </div>
+        </div>
+
+        <div class="featured-card">
+            <img src="images/кремль.jpg" class="card-image" alt="">
+            <div class="overlay"></div>
+            <div class="meta-wrapper">
+                <span class="meta">Кремль - от 7 890 &#8381;</span>
+            </div>
+            <div class="featured-content">
+                <h3>Кремль красная площадь</h3>
+                <p>Крепость в центре Москвы и древнейшая её часть, главный общественно-политический и историко-художественный комплекс города, официальная резиденция Президента Российской Федерации, вплоть до распада СССР в декабре 1991 года была официальной резиденцией Генерального секретаря ЦК КПСС.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="events-section">
+        <h2>Слетаем повеселиться? :)</h2>
+        <div class="events-wrapper">
+            <div class="event-card">
+                <div class="event-image">
+                    <span class="event-date">27 - 28 июн</span>
+                    <img src="images/баста.jpg" alt="">
+                </div>
+                <h3>Концерт Басты</h3>
+                <p>Москва</p>
+                <p class="price"><i class="fa-solid fa-plane"></i> от 8 975 &#8381;</p>
+            </div>
+            <div class="event-card">
+                <div class="event-image">
+                    <span class="event-date">6 июн</span>
+                    <img src="images/сова.jpg" alt="">
+                </div>
+                <h3>Сова</h3>
+                <p>Красноярск</p>
+                <p class="price"><i class="fa-solid fa-plane"></i>от 5 678 &#8381;</p>
+            </div>
+            <div class="event-card">
+                <div class="event-image">
+                    <span class="event-date">15 июн</span>
+                    <img src="images/рукивверз.jpg" alt="">
+                </div>
+                <h3>Руки вверх!</h3>
+                <p>Краснодар</p>
+                <p class="price"><i class="fa-solid fa-plane"></i>от 7 865 &#8381;</p>
+            </div>
+            <div class="event-card">
+                <div class="event-image">
+                    <span class="event-date">23 июн</span>
+                    <img src="images/gone_fludd.jpg" alt="">
+                </div>
+                <h3>GONE.Fludd</h3>
+                <p>Калиниград</p>
+                <p class="price"><i class="fa-solid fa-plane"></i> от 15 789 &#8381;</p>
+            </div>
+        </div>
+
+        <div class="see-all-button">
+            <a href="#">Смотреть все события</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 AviaSearch. Все права защищены. <a href="#">Политика конфиденциальности</a></p>
+    </footer>
+</body>
+</html>
