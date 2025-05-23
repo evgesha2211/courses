@@ -55,8 +55,12 @@
     border-bottom-right-radius: 8px;
 }
 
-.search-box button {
+.search-box a {
+    display: block;
     background-color: #ed8b02;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
     color: #fff;
     border: none;
     border-radius: 6px;
@@ -66,7 +70,7 @@
     min-width: 150px;
 }
 
-.search-box button:hover {
+.search-box a:hover {
     background-color: #009ac9;
 }
 

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Результат поиска</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/results.css">
+    <link rel="website icon" type="png" href="images/airplane.png">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo"><a href="index.html">AviaSearch</a></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="login.html">Профиль</a></li>
+                    <li><a href="faq.html">Поддержка</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Результаты поиска:</h1>
+        <div class="cards">
+            <div class="card">
+                <div class="price">5370</div>
+                <div class="badge"></div>
+                <div class="details">
+                    <div class="route">
+                        <span class="time">18:00 &mdash; 18:55</span>
+                        <span class="iata">TJM &rarr; VKO</span>
+                    </div>
+                <div class="duration">2:50 ч в пути / Прямой</div>
+                </div>
+                <div class="date">Июн 4</div>
+            </div>
+            <div class="card">
+                <div class="price">5470</div>
+                <div class="badge"></div>
+                <div class="details">
+                    <div class="route">
+                        <span class="time">18:00 &mdash; 18:55</span>
+                        <span class="iata">TJM &rarr; VKO</span>
+                    </div>
+                    <div class="duration">3 ч в пути / Прямой</div>
+                </div>
+                <div class="date">Июн 3</div>
+            </div>
+            <div class="card">
+                <div class="price">5 570</div>
+                <div class="badge"></div>
+                <div class="details">
+                    <div class="route">
+                        <span class="time">18:00 &mdash; 18:55</span>
+                        <span class="iata">TJM &rarr; VKO</span>
+                    </div>
+                    <div class="duration">3 ч в пути / Прямой</div>
+                </div>
+                <div class="date">Июн 3</div>
+            </div>
+            <div class="card">
+                <div class="price">5470</div>
+                <div class="badge"></div>
+                <div class="details">
+                    <div class="route">
+                        <span class="time">18:00 &mdash; 18:55</span>
+                        <span class="iata">TJM &rarr; VKO</span>
+                    </div>
+                    <div class="duration">3 ч в пути / Прямой</div>
+                </div>
+                <div class="date">Июн 3</div>
+            </div>
+        </div>
+    </div>
+
+    <section class="events-section">
+        <h2>Слетаем повеселиться? :)</h2>
+        <div class="events-wrapper">
+            <div class="event-card">
+                <div class="event-image">
+                    <span class="event-date">27 - 28 июн</span>
+                    <img src="images/баста.jpg" alt="">
+                </div>
+                <h3>Концерт Басты</h3>
+                <p>Москва</p>
+                <p class="price"><i class="fa-solid fa-plane"></i> от 8 975 &#8381;</p>
+            </div>
+            <div class="event-card">
+                <div class="event-image">
+                    <span class="event-date">6 июн</span>
+                    <img src="images/Lida.jpg" alt="">
+                </div>
+                <h3>Lida</h3>
+                <p>Москва</p>
+                <p class="price"><i class="fa-solid fa-plane"></i>от 5 678 &#8381;</p>
+            </div>
+            <div class="event-card">
+                <div class="event-image">
+                    <span class="event-date">15 июн</span>
+                    <img src="images/friendly_thug_52_ngg.png" alt="">
+                </div>
+                <h3>FRIENDLY THUG 52 NGG</h3>
+                <p>Москва</p>
+                <p class="price"><i class="fa-solid fa-plane"></i>от 7 865 &#8381;</p>
+            </div>
+            <div class="event-card">
+                <div class="event-image">
+                    <span class="event-date">26 июн</span>
+                    <img src="images/gone_fludd.jpg" alt="">
+                </div>
+                <h3>GONE.Fludd</h3>
+                <p>Москва</p>
+                <p class="price"><i class="fa-solid fa-plane"></i> от 15 789 &#8381;</p>
+            </div>
+        </div>
+        <div class="see-all-button">
+            <a href="#">Смотреть все события</a>
+        </div>
+    </section>
+    <div class="video-container">
+        <div class="video-header">
+            <h2>Посмотрите инетересное видео про то <br> как сэкономить на авиабилетах</h2>
+        </div>
+        <div class="video-content">
+            <video id="myVideo" poster="poster.jpg">
+                <source src="video/youtube_eYRvkqJM-ws_1920x1080_h264.mp4" type="video/mp4">
+                Ваш браузер не поддерживает видео тег.
+            </video>
+            <div class="play-button" onclick="togglePlay()">▶️</div>
+        </div>
+        <div class="progress-container" onclick="setProgress(event)">
+            <input type="range" id="progressBar" class="progress-bar" value="0" min="0" max="100" step="0.1">
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 AviaSearch. Все права защищены. <a href="#">Политика конфиденциальности</a></p>
+    </footer>
+    <script src="js/results.js"></script>
+</body>
+</html>

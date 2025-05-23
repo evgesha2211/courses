@@ -47,17 +47,16 @@
     border: none;
     outline: none;
     font-size: 16px;
-    /* flex: 1;  */
 }
 
 .input-with-button button {
     padding: 8px 12px;
-    background-color: #007bff67; /* Цвет фона кнопки */
-    color: white; /* Цвет текста кнопки */
-    border: none; /* Убираем границу кнопки */
-    cursor: pointer; /* Изменяем курсор при наведении */
-    border-radius: 10px; /* Закругление углов кнопки */
-    margin-left: 8px; /* Отступ между input и кнопкой */
+    background-color: #007bff67;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 8px;
 }
 
 .log-in-account {
